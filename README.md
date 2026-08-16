@@ -94,7 +94,7 @@ The model repeatedly performs these steps until the loss is reduced and the pred
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 The notebook follows these major steps:
 
@@ -113,7 +113,7 @@ The notebook follows these major steps:
 
 ---
 
-## ⚙️ Neural Network Components
+## Neural Network Components
 
 The implementation demonstrates the basic components of a neural network:
 
@@ -145,7 +145,7 @@ Probability < 0.5 → 0 (Not Placed)
 
 ---
 
-## 🧮 Loss Function
+## Loss Function
 
 The classification model uses a binary classification loss to measure the difference between the actual and predicted values.
 
@@ -155,7 +155,7 @@ The objective of training is to minimize this loss by continuously updating the 
 
 ---
 
-## 🔁 Gradient Descent
+## Gradient Descent
 
 After calculating the gradients through backpropagation, the model updates its weights using **Gradient Descent**.
 
@@ -169,7 +169,7 @@ This process moves the model parameters toward values that reduce the prediction
 
 ---
 
-## 💡 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 This project provides a practical understanding of:
 
@@ -187,7 +187,7 @@ This project provides a practical understanding of:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python**
 * **NumPy**
@@ -197,7 +197,7 @@ No high-level Deep Learning framework is required for the core implementation.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 backpropagation-classification-from-scratch/
@@ -208,7 +208,7 @@ backpropagation-classification-from-scratch/
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained practical experience in understanding:
 
@@ -222,7 +222,7 @@ Through this project, I gained practical experience in understanding:
 
 ---
 
-## 🔍 Why Build Backpropagation From Scratch?
+## Why Build Backpropagation From Scratch?
 
 Modern frameworks such as **TensorFlow and PyTorch** automatically calculate gradients and update model parameters.
 
@@ -232,7 +232,7 @@ This project therefore focuses on **understanding the mathematics and mechanics 
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible extensions include:
 
@@ -249,7 +249,7 @@ Possible extensions include:
 
 ---
 
-## 💡 Final Takeaway
+## Final Takeaway
 
 This project provides a **from-scratch implementation of backpropagation for binary classification** and demonstrates how a neural network learns by repeatedly making predictions, measuring error, calculating gradients, and updating its weights.
 
